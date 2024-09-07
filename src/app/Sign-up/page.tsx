@@ -47,9 +47,16 @@ export default function SignUp() {
            else if (user.password.length > 6 ){
                 setPassErr(true)
             }
+       else{
+               if(Name = '' &  email='' & password = ''){
+              router.push('./verify')
+
+    
        
+}
+       }
          
-            router.push('/verify')
+            
             
         }
         catch (error:any) {
@@ -58,9 +65,7 @@ export default function SignUp() {
         
         }
 
-    
-       
-}
+      
 
 
     return (
