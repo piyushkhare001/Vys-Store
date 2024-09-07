@@ -50,7 +50,7 @@ Demo Store
         </div>
           </div>
          <main className=" flex justify-between sm:items-center sm:flex-col-reverse sm:gap-3 w-4/5 m-4">
-             <div  className=" flex flex-col justify-between h-38 "> 
+             <div  className=" flex flex-col justify-between h-38  w-64"> 
                  
                     <div className="text-3xl font-extrabold font-serif"> {slide?.city} Itinerary </div>
                    <p className="font-sans text-dark-200 sm:hidden">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero, totam quae? Voluptatem delectus velit vitae ipsum incidunt, tenetur expedita voluptatibus consequuntur reiciendis repellendus nostrum eligendi et corrupti consequatur pariatur vel quia amet doloribus voluptate quam iste officiis similique veritatis. Officiis!</p>
@@ -65,7 +65,7 @@ Demo Store
 </button> </div>
 
              </div>
-          <Image src={slide.image} alt={`Slide ${slide.id}`} className="w-[30rem] h-96  sm:w-44 sm:h-56 object-cover rounded-2xl" /> 
+          <Image src={slide.image} alt={`Slide ${slide.id}`} className="w-56 h-64  sm:w-44 sm:h-56 object-cover rounded-2xl" /> 
             </main>
             </div>
           ))}
