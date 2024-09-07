@@ -132,7 +132,7 @@ const router = useRouter()
       >
         <div
           ref={drawerRef}
-          className="fixed top-0 right-0   flex  flex-col gap-4 rounded-lg h-[30rem] bg-zinc-950 backdrop-filter backdrop-blur-lg bg-opacity-30 p-8 pb-20 pt-20 shadow-lg text-white  z-50"
+          className="fixed top-0 right-0   flex  flex-col gap-4 rounded-lg h-[30rem] bg-zinc-950 backdrop-filter backdrop-blur-lg bg-opacity-30 p-8 pb-20 pt-20 shadow-lg text-white  z-90"
         >
         
            
