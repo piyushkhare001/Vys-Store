@@ -136,7 +136,7 @@ const router = useRouter()
         >
         
            
-                 <div><Image alt = 'img' src = {star} height={100}  className="rounded-full border aspect-square   text-center border-black "/></div>  
+                 <Image alt = 'img' src = {star} height={100}  className="rounded-full border aspect-square   text-center border-black "/>
                  <p className='font-serif text-xl text-green-900'> @UserName </p>
                    <div onClick={ () => {router.push('/Profile')}} className={` ${profileClick ? `bg-green-900`: `bg-green-900`}  flex gap-2 w-44  text-center bg-green-600  - font-semibold text-white p-2 pl-14 border border-black-500 hover:border-transparent rounded`} > profile</div>
                    <div onClick={ () => {router.push('/Store')}} className={` ${storeClick ? `bg-green-900`: `bg-green-900`}  flex gap-2 w-44  text-center bg-green-600   font-semibold text-white p-2 pl-14 border border-black-500 hover:border-transparent rounded`}> my store</div>
