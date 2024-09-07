@@ -65,7 +65,7 @@ Demo Store
 </button> </div>
 
              </div>
-          <Image src={slide.image} alt={`Slide ${slide.id}`} className="w-[25rem] h-56  sm:w-44 sm:h-56 object-cover rounded-2xl" /> 
+          <Image src={slide.image} alt={`Slide ${slide.id}`} className="w-[15rem] h-56  sm:w-44 sm:h-56 object-cover rounded-2xl" /> 
             </main>
             </div>
           ))}
