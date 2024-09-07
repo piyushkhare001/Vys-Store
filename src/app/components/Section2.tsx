@@ -36,7 +36,7 @@ export default  function Section2 (){
       <div className="relative w-full flex items-center mx-auto z-20 max-w-6xl bg-blue-50 rounded-lg overflow-hidden border border-dark-800">
         <div className="flex transition-transform duration-500 " style={{ transform: `translateX(-${currentSlide * 100}%)` }}>
           {slides.map((slide) => (
-            <div key={slide.id} className="w-full flex-shrink-0 lg:m-10   ">
+            <div key={slide.id} className="w-full flex-shrink-0 m-10   ">
           <div className="flex sm:flex-col justify-between sm:gap-3 w-4/5 m-4">
         <div className="text-3xl sm:text-xl font-extrabold font-serif"> Product </div>
         
@@ -65,7 +65,7 @@ Demo Store
 </button> </div>
 
              </div>
-          <Image src={slide.image} alt={`Slide ${slide.id}`} className="w-58 h-64  sm:w-44 sm:h-56 object-cover rounded-2xl" /> 
+          <Image src={slide.image} alt={`Slide ${slide.id}`} className="w-58 h-96  sm:w-44 sm:h-56 object-cover rounded-2xl" /> 
             </main>
             </div>
           ))}
