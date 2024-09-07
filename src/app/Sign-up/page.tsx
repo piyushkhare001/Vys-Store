@@ -41,15 +41,15 @@ export default function SignUp() {
                 setNameErr(true)
             }
 
-            if(user.email.length <=5 ){
+            else if(user.email.length <=5 ){
                 setEmailErr(true)
             }
-            if (user.password.length > 6 ){
+           else if (user.password.length > 6 ){
                 setPassErr(true)
             }
        
-          
-             router.push('/verify')
+         
+            router.push('/verify')
             
         }
         catch (error:any) {
